@@ -12,11 +12,13 @@ Users.init({
     },
     alias_user:{
         type:DataTypes.STRING,
-        allowNull:false
+        allowNull:false, 
+        unique:true
     },
     email_user:{
         type: DataTypes.STRING,
-        allowNull:false
+        allowNull:false,
+        unique:true
     },
     password_user:{
         type: DataTypes.STRING,

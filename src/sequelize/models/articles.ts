@@ -20,11 +20,13 @@ Articles.init({
     title_article:{
         type: DataTypes.STRING,
         allowNull:false,
+        unique:true
         
     },
     description_article:{
         type:DataTypes.TEXT,
         allowNull:false,
+        unique:true
     },
     category_article:{
         type:DataTypes.STRING,
